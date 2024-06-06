@@ -1,6 +1,7 @@
 package net.dadamalda.learnmodding;
 
 import com.mojang.logging.LogUtils;
+import net.dadamalda.learnmodding.block.ModBlocks;
 import net.dadamalda.learnmodding.item.ModCreativeModeTabs;
 import net.dadamalda.learnmodding.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -33,6 +34,7 @@ public class LearnModding {
 
         ModItems.register(modEventBus);
         ModCreativeModeTabs.register(modEventBus);
+        ModBlocks.register(modEventBus);
 
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
@@ -57,6 +59,8 @@ public class LearnModding {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS) {
             event.accept(ModItems.RUBY);
             event.accept(ModItems.RAW_RUBY);
+            event.accept(ModBlocks.RUBY_BLOCK);
+            event.accept(ModBlocks.RAW_RUBY_BLOCK);
         }
     }
     // You can use SubscribeEvent and let the Event Bus discover methods to call

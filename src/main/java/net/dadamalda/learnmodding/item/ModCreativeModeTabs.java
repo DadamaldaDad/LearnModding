@@ -1,6 +1,7 @@
 package net.dadamalda.learnmodding.item;
 
 import net.dadamalda.learnmodding.LearnModding;
+import net.dadamalda.learnmodding.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -19,6 +20,8 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.RUBY.get());
                         output.accept(ModItems.RAW_RUBY.get());
+                        output.accept(ModBlocks.RUBY_BLOCK.get());
+                        output.accept(ModBlocks.RAW_RUBY_BLOCK.get());
                     })
                     .build());
 
