@@ -5,5 +5,8 @@
   "creativetab.learn_modding_tab": "Learn Modding",
 
   "block.learn_modding.ruby_block": "Block of Ruby",
-  "block.learn_modding.raw_ruby_block": "Block of Raw Ruby"
+  "block.learn_modding.raw_ruby_block": "Block of Raw Ruby",
+
+  "block.learn_modding.ruby_ore": "Ruby Ore",
+  "block.learn_modding.deepslate_ruby_ore": "Deepslate Ruby Ore"
 }
