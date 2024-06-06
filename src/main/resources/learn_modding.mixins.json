@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "net.dadamalda.learn_modding.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "LearnModding.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
