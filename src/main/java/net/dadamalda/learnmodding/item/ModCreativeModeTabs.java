@@ -21,6 +21,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RUBY.get());
                         output.accept(ModItems.RAW_RUBY.get());
 
+                        output.accept(ModItems.RUBY_STAFF.get());
+
                         output.accept(ModBlocks.RUBY_BLOCK.get());
                         output.accept(ModBlocks.RAW_RUBY_BLOCK.get());
 

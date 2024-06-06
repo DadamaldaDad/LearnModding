@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  #",
+    " s ",
+    "@  "
+  ],
+  "key": {
+    "#": {
+      "item": "learn_modding:ruby_block"
+    },
+    "s": {
+      "item": "minecraft:stick"
+    },
+    "@": {
+      "item": "learn_modding:ruby"
+    }
+  },
+  "result": {
+    "item": "learn_modding:ruby_staff"
+  }
+}
