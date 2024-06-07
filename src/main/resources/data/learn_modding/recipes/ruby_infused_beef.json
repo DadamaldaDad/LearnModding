@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "bbb",
+    "b#b",
+    "bbb"
+  ],
+  "key": {
+    "#": {
+      "item": "learn_modding:ruby"
+    },
+    "b": {
+      "item": "minecraft:cooked_beef"
+    }
+  },
+  "result": {
+    "item": "learn_modding:ruby_infused_beef",
+    "count": 8
+  }
+}
