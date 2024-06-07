@@ -22,6 +22,7 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.RAW_RUBY.get());
 
                         output.accept(ModItems.RUBY_INFUSED_BEEF.get());
+                        output.accept(ModItems.RUBY_INFUSED_COAL.get());
 
                         output.accept(ModItems.RUBY_STAFF.get());
 

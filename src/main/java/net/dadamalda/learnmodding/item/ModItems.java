@@ -1,6 +1,7 @@
 package net.dadamalda.learnmodding.item;
 
 import net.dadamalda.learnmodding.LearnModding;
+import net.dadamalda.learnmodding.item.custom.FuelItem;
 import net.dadamalda.learnmodding.item.custom.RubyStaffItem;
 import net.minecraft.world.item.Item;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -22,6 +23,8 @@ public class ModItems {
 
     public static final RegistryObject<Item> RUBY_INFUSED_BEEF = ITEMS.register("ruby_infused_beef",
             () -> new Item(new Item.Properties().food(ModFoods.RUBY_INFUSED_BEEF)));
+    public static final RegistryObject<Item> RUBY_INFUSED_COAL = ITEMS.register("ruby_infused_coal",
+            () -> new FuelItem(new Item.Properties(), 16*200));
 
     public static void register(IEventBus eventBus)
     {

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "ccc",
+    "c#c",
+    "ccc"
+  ],
+  "key": {
+    "#": {
+      "item": "learn_modding:ruby"
+    },
+    "c": {
+      "item": "minecraft:coal"
+    }
+  },
+  "result": {
+    "item": "learn_modding:ruby_infused_coal",
+    "count": 8
+  }
+}
