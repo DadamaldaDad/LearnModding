@@ -3,7 +3,8 @@
   "item.learn_modding.raw_ruby": "Raw Ruby",
 
   "item.learn_modding.ruby_staff": "Ruby Staff",
-  "item.learn_modding.ruby_staff.tooltip": "Deals 5 damage to all monsters in an area",
+  "item.learn_modding.ruby_staff.tooltip1": "Deals 5 damage to all monsters in an area",
+  "item.learn_modding.ruby_staff.tooltip2": "Can also break glass as a side effect",
 
   "item.learn_modding.ruby_infused_beef": "Ruby-Infused Steak",
   "item.learn_modding.ruby_infused_coal": "Ruby-Infused Coal",

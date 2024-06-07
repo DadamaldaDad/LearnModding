@@ -19,7 +19,7 @@ public class ModItems {
             () -> new Item(new Item.Properties()));
 
     public static final RegistryObject<Item> RUBY_STAFF = ITEMS.register("ruby_staff",
-            () -> new RubyStaffItem(new Item.Properties().durability(200)));
+            () -> new RubyStaffItem(new Item.Properties().durability(350)));
 
     public static final RegistryObject<Item> RUBY_INFUSED_BEEF = ITEMS.register("ruby_infused_beef",
             () -> new Item(new Item.Properties().food(ModFoods.RUBY_INFUSED_BEEF)));

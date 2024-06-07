@@ -1,9 +1,9 @@
 package net.dadamalda.learnmodding.item.custom;
 
+import net.dadamalda.learnmodding.util.ModTags;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.damagesource.DamageSources;
-import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.monster.Monster;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.item.Item;
@@ -35,6 +35,10 @@ public class RubyStaffItem extends Item {
                 }
             }
 
+            if(level.getBlockState(pContext.getClickedPos()).is(ModTags.Blocks.RUBY_STAFF_FRAGILE)) {
+                level.destroyBlock(pContext.getClickedPos(), true, player);
+            }
+
             pContext.getItemInHand().hurtAndBreak(1, player,
                     player2 -> player2.broadcastBreakEvent(player2.getUsedItemHand()));
         }
@@ -44,7 +48,8 @@ public class RubyStaffItem extends Item {
 
     @Override
     public void appendHoverText(ItemStack pStack, @Nullable Level pLevel, List<Component> pTooltipComponents, TooltipFlag pIsAdvanced) {
-        pTooltipComponents.add(Component.translatable("item.learn_modding.ruby_staff.tooltip"));
+        pTooltipComponents.add(Component.translatable("item.learn_modding.ruby_staff.tooltip1"));
+        pTooltipComponents.add(Component.translatable("item.learn_modding.ruby_staff.tooltip2"));
         super.appendHoverText(pStack, pLevel, pTooltipComponents, pIsAdvanced);
     }
 }
