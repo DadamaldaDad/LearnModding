@@ -1,6 +1,7 @@
 package net.dadamalda.learnmodding.block;
 
 import net.dadamalda.learnmodding.LearnModding;
+import net.dadamalda.learnmodding.block.custom.RubyBlockBlock;
 import net.dadamalda.learnmodding.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -23,7 +24,7 @@ public class ModBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, LearnModding.MODID);
 
     public static final RegistryObject<Block> RUBY_BLOCK = registerBlock("ruby_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.EMERALD_BLOCK)
+            () -> new RubyBlockBlock(BlockBehaviour.Properties.copy(Blocks.EMERALD_BLOCK)
                     .sound(SoundType.AMETHYST)
                     .mapColor(MapColor.COLOR_RED)));
 

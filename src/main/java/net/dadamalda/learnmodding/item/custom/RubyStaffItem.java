@@ -1,7 +1,5 @@
 package net.dadamalda.learnmodding.item.custom;
 
-import net.minecraft.core.particles.ParticleOptions;
-import net.minecraft.core.particles.ParticleTypes;
 import net.minecraft.world.InteractionResult;
 import net.minecraft.world.damagesource.DamageSources;
 import net.minecraft.world.entity.Mob;
