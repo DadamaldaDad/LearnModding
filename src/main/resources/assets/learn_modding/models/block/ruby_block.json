@@ -1,6 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "learn_modding:block/ruby_block"
-  }
-}
